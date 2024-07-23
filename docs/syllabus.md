@@ -51,7 +51,7 @@ The second-last week of the course will be used to provide you with preparation 
 
 ## SCHEDULE
 
-| Date | Topics | In-class engagement activity | Project deadlines (recommended submission for that deadline) |
+| Date | Topics | In-class engagement activity | Recommended project deadlines (maximum submissions per deadline) |
 |---|---|---|---|
 | Sep 04 (W) | Day 01 Introduction to the course, python and Jupyter notebooks | Group activities |  |
 | Sep 09 (M) | Day 02 Strings and text formatting | Group Worksheet: Strings and text formatting |  |
@@ -61,25 +61,25 @@ The second-last week of the course will be used to provide you with preparation 
 | Sep 23 (M) | Day 06 Project 1, Day 1 |  |  |
 | Sep 25 (W) | Day 07 Project 1, Day 2 | Project 1 feedback activity | Project 1 feedback draft due |
 | Sep 30 (M) | National Day for Truth and Reconciliation (university closed) |  |  |
-| Oct 02 (W) | Day 08 Functions | Group Worksheet: Electric field hockey 1 | Submission deadline #1, 1 submission (Project 1) |
+| Oct 02 (W) | Day 08 Functions | Group Worksheet: Electric field hockey 1 | Project 1 - Submission deadline #1 (1 submission) |
 | Oct 07 (M) | Day 09 NumPy arrays | Group Worksheet: NumPy arrays |  |
 | Oct 09 (W) | Day 10 Containers: dictionaries, tuples, etc | Group Worksheet: Electric field hockey 2 | |
 | Oct 14 (M) | Thanksgiving (university closed) |  |  |
-| Oct 16 (W) | Day 11 Advanced array techniques; Project 2, Day 0 | Group Worksheet: Advanced array techniques | Submission deadline #2, 1 submission (Project 1 revision) |
+| Oct 16 (W) | Day 11 Advanced array techniques; Project 2, Day 0 | Group Worksheet: Advanced array techniques | Project 1 revision - Submission deadline #2 (1 submission) |
 | Oct 21 (M) | Day 12 Project 2, Day 1 |  |  |
 | Oct 23 (W) | Day 13 Project 2, Day 2 | Project 2 feedback activity | Project 2 feedback draft due |
-| Oct 28 (M) | Day 14 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 | Submission deadline #3, 2 submissions (Project 2) |
+| Oct 28 (M) | Day 14 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 | Project 2 - Submission deadline #3 (2 submissions) |
 | Oct 30 (W) | Day 15 Fitting | Group Worksheet: Fitting |  |
 | Nov 04 (M) | Day 16 Monte-Carlo methods 2; Project 3, Day 0 | Group Worksheet: Monte-Carlo methods 2 |  |
-| Nov 06 (W) | Day 17 Project 3, Day 1 |  | Submission deadline #4, 2 submissions (Project 2 revision) |
+| Nov 06 (W) | Day 17 Project 3, Day 1 |  | Project 2 revision - Submission deadline #4 (2 submissions) |
 | Nov 11-13 | Midterm break |  |  |
 | Nov 18 (M) | Day 18 Project 3, Day 2 | Project 3 feedback activity | Project 3 feedback draft due |
 | Nov 20 (W) | Day 19 File input and output | Group Worksheet: File input and output |  |
-| Nov 25 (M) | Day 20 Poster presentation prep, Day 1 |  | Submission deadline #5, 2 submissions (Project 3) |
+| Nov 25 (M) | Day 20 Poster presentation prep, Day 1 |  | Project 3 - Submission deadline #5 (2 submissions) |
 | Nov 27 (W) | Day 21 Poster presentation prep, Day 2 |  |  |
 | Dec 02 (M) | Day 22 Poster presentations, Day 1 |  |  |
-| Dec 04 (W) | Day 23 Poster presentations, Day 2 |  | Dec 09: Submission deadline #6, 1 submission (Project 3 revision) |
-|   |  |  | Dec 16: Submission deadline #7, 1 submission |
+| Dec 04 (W) | Day 23 Poster presentations, Day 2 |  | Dec 09: Project 3 revision - Submission deadline #6 (1 submission) |
+|   |  |  | Dec 16: One last project revision - Submission deadline #7 (1 submission) |
 
 
 
