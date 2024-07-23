@@ -79,8 +79,8 @@ The second-last week of the course will be used to provide you with preparation 
 | Nov 27 (W) | Day 21 Poster presentation prep, Day 2 |  |  |
 | Dec 02 (M) | Day 22 Poster presentations, Day 1 |  |  |
 | Dec 04 (W) | Day 23 Poster presentations, Day 2 |  | Dec 09: Project 3 revision - Submission deadline #6 (1 submission) |
-| Dec 10 (T) |  |  | Project 3 revision - Submission deadline #6 (1 submission) |
-| Dec 16 (M)  |  |  | One last project revision - Submission deadline #7 (1 submission) |
+| Dec 10 (T) | Exam period |  | Project 3 revision - Submission deadline #6 (1 submission) |
+| Dec 16 (M)  | Exam period |  | One last project revision - Submission deadline #7 (1 submission) |
 
 
 
