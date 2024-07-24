@@ -51,7 +51,7 @@ The second-last week of the course will be used to provide you with preparation 
 
 ## SCHEDULE
 
-| Date | Topics | In-class engagement activity | Project submission deadlines* |
+| Date | Topics | In-class engagement activity | Project deadlines* |
 |---|---|---|---|
 | Sep 04 (W) | Day 01 Introduction to the course, python and Jupyter notebooks | Group activities |  |
 | Sep 09 (M) | Day 02 Strings and text formatting | Group Worksheet: Strings and text formatting |  |
@@ -71,8 +71,8 @@ The second-last week of the course will be used to provide you with preparation 
 | Oct 28 (M) | Day 14 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 | Project submission deadline #3 |
 | Oct 30 (W) | Day 15 Fitting | Group Worksheet: Fitting |  |
 | Nov 04 (M) | Day 16 Monte-Carlo methods 2; Project 3, Day 0 | Group Worksheet: Monte-Carlo methods 2 |  |
-| Nov 06 (W) | Day 17 Project 3, Day 1 |  | Project submission deadline #4 |
-| Nov 11-13 | Midterm break |  |  |
+| Nov 06 (W) | Day 17 Project 3, Day 1 |  |  |
+| Nov 11-13 | Midterm break |  | Nov 12: Project submission deadline #4 |
 | Nov 18 (M) | Day 18 Project 3, Day 2 | Project 3 feedback activity | Project 3 feedback draft due |
 | Nov 20 (W) | Day 19 File input and output | Group Worksheet: File input and output |  |
 | Nov 25 (M) | Day 20 Poster presentation prep, Day 1 |  | Project submission deadline #5 |
@@ -166,7 +166,15 @@ If you miss a class:
 
 ### Project submission deadlines
 
-Instead of offering extensions for projects, we offer seven project submission deadlines in the course (see the Schedule above). For the 1st, 2nd, 6th and 7th of these deadlines, you can make one initial or revised submission for any of the projects in the course. For the 3rd, 4th and 5th deadlines, you can make two initial or revised submissions. The syllabus provides recommendations for what to submit at each deadline, but it is ultimately up to you how you want to make use of these deadlines. If you miss a deadline, the submission for the next deadline will already be available so you can simply submit to that next submission deadline.
+Instead of offering extensions for projects, we offer seven project submission deadlines in the course. For the 1st, 2nd, 6th and 7th of these deadlines, you can make one initial or revised submission for any of the projects in the course. For the 3rd, 4th and 5th deadlines, you can make two initial or revised submissions. The syllabus provides recommendations for what to submit at each deadline, but it is ultimately up to you how you want to make use of these deadlines. If you miss a deadline, the submission for the next deadline will already be available so you can simply submit to that next submission deadline.
+
+| Date | Oct 02 | Oct 15 | Oct 28 | Nov 12 | Nov 25 | Dec 10 | Dec 16 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Submission Deadline #  | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| Recommended submission   | Project 1   | Project 1 revision  | Project 2  | Project 2 revision  | Project 3  | Project 3 revision  | One last project revision  |
+| Maximum number of different submissions accepted  | 1  | 1  | 2  | 2  | 1  | 1  | 1  |
+
+
 
 ### Academic concessions
 
