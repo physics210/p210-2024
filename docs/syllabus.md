@@ -154,6 +154,7 @@ The engagement grading category encompasses tasks that the teaching team feel ar
 
 This relatively low threshold of 70% to receive “Publish” was chosen to provide you with the opportunity to miss (no credit) or be late (half credit) on the occasional engagement task and still feel confident that you will receive the maximum possible credit in this engagement grading category.
 
+Please see Appendix 2 for an estimate of how the possible engagement points will be allocated.
 
 ### Missing classes
 
@@ -200,6 +201,11 @@ In this course we seek to embrace and teach the responsible use of GenAI (Genera
 * **Formal group work:** You are encouraged to talk to each other, to the teaching team, and to learn from any and all resources at your disposal. For in-class group activities, we expect you to participate fully in your group's collaborative activities and it is your responsibility to ensure you understand your group's work fully. 
 * **Individual work:** It is not acceptable to gather with a friend or two to work through a project to produce a common version nor is it acceptable to submit a modified version of somebody else's work as your own.
 
+## CANADIAN CONSORTIUM OF SCIENCE EQUITY SCHOLARS (CCSES) EQUITY PROJECT SURVEYS
+
+Near the start and end of the term you will be invited to participate in surveys administered by the research team from the Canadian Consortium of Science Equity Scholars (CCSES). This study is external to the course, and your participation is entirely optional. As an incentive to participate in this study, participating students will be awarded 4 bonus engagement points for the the start of term survey and 4 additional bonus engagement points for the endof term survey. The only information available to the course instructor will be the list of participants for the purposes of applying this bonus: no other information about their survey responses will be shared by the study team. These surveys are part of a cross-Canada research project studying first-year university science courses with the aim of identifying features that make STEM courses inclusive and equitable. The questions in these surveys explore students' perceptions of classroom climate, sense of belonging, and course outcomes. The CCSES analyzes these data to develop an understanding of students' social and academic identities, along with their
+experiences in first-year STEM classrooms. This will help science educators better understand and respond to the diverse needs of their students, especially those
+currently or historically underrepresented in STEM. This project aims to foster change that enables instructors to create more equitable classroom environments in postsecondary settings, ensuring that all students who wish to pursue STEM can succeed. If you have any questions, please contact the research team at ccses@science.ubc.ca.
 
 ## UNIVERSITY SUPPORT AND RESOURCES
 
@@ -237,3 +243,17 @@ Your course grade will be based upon the editorial decisions you are able to ach
 | F (20%) | 1x Major Revision, 4x Rework |
 | F (10%) | 1x Major Revision, 2x Rework, 2x No Submission |
 | F (0%) | 1x Major Revision, 4x No Submission |
+
+# APPENDIX 2: ESTIMATE OF ENGAGEMENT POINTS THAT WILL BE AVAILABLE
+
+The following tables shows an estimate of the engagement points that will be available to be earned.
+
+| Item | Engagement Points Available |
+| :--- | :---: |
+| Preclass preparation assignments (1pt each) | 13 pts |
+| Group worksheets (1 pt each) | 13 pts |
+| Homework assignments (1 pt each) | 13 pts |
+| Project feedback drafts (2 pts each) | 6 pts |
+| Peer feedback on projects and posters (2 pts each) | 10 pts |
+| Equity project surveys (+4 bonus pts each) | +8 bonus pts |
+| **Total** | **55 pts** | 
