@@ -255,5 +255,5 @@ The following tables shows an estimate of the engagement points that will be ava
 | Homework assignments (1 pt each) | 13 pts |
 | Project feedback drafts (2 pts each) | 6 pts |
 | Peer feedback on projects and posters (2 pts each) | 10 pts |
-| Equity project surveys (+4 bonus pts each) | +8 bonus pts |
+| Equity project surveys (+4 bonus pts each) | (+8 bonus pts) |
 | **Total** | **55 pts** | 
