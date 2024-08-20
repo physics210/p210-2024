@@ -94,7 +94,7 @@ Your overall grade in the course will be determined based on the quality of your
 4. Poster Presentation
 5. Engagement
 
-For each of these categories, you will receive an “editorial decision” (see Project grading below) such as “Publish” or “Major Revisions”. 
+For each of these categories, you will receive an “editorial decision” (see Project Assessment below) such as “Publish” or “Major Revisions”. 
 
 Your course grade will be based upon the editorial decisions you are able to achieve across all five categories. The table below provides an overview of the minimum criteria for each grade level. For a more detailed account, please see Appendix 1.
 
@@ -105,9 +105,9 @@ Your course grade will be based upon the editorial decisions you are able to ach
 | D (50%) | 2x Minor Revisions, 3x Major Revisions |
 
 
-### Project grading
+### Project assessment
 
-Projects in this course consist of computational physics investigations and the communication of these investigations. The grading system for these projects resembles the process of publishing a peer-reviewed journal article. Although we will not incorporate formal peer review, you will engage in the following steps as you work toward the goal of having each of your projects earn the editorial decision of “accepted for publication”:
+Projects in this course consist of computational physics investigations and the communication of these investigations. Project assessment resembles the process of publishing a peer-reviewed journal article. Although we will not incorporate formal peer review, you will engage in the following steps as you work toward the goal of having each of your projects earn the editorial decision of “accepted for publication”:
 
 * **One week after the project is assigned:** Share a draft of your project for in-class feedback from your peers and the teaching team. This mirrors the process of authors asking colleagues, mentors or people with appropriate expertise to provide feedback on a draft of a journal article before finalizing it for submission.
 * **Two weeks after the project is assigned (recommended):** Revise and submit your project to receive formal feedback from the teaching team. The grader (“the reviewer”) will provide detailed feedback and an editorial decision. Even the strongest projects are likely to earn an editorial decision of “accept with minor revisions” at best. This is true for professionals when trying to get a paper published as well. The majority of the time, the most positive outcome for a first submission of a journal article is that it will come back from the editor as accepted with minor revisions. Having people with relevant expertise apply this critical eye to your work is how it can go from good to great. 
@@ -126,7 +126,7 @@ The following table provides an overview of the editorial decisions related to p
 
 In many journals, outstanding manuscripts may receive a “notable” distinction, such that the editor will highlight them based on a combination of their originality, their potential impact on the field and the quality of the communication. Projects can receive a Level 1 Notable Distinction for having an aspect of the work that goes significantly above and beyond expectations. Exceptional projects can receive a Level 2 Notable Distinction if the entire project goes significantly above and beyond expectations. The process for your “accepted for publication” projects to receive Notable Distinctions will be detailed further when the Project 01 details are released.
 
-### Poster presentation grading
+### Poster presentation assessment
 
 The editorial decision for your poster presentation will be based on a combination of related assessments:
 
@@ -139,7 +139,7 @@ Further details will be provided when the Poster Presentation details are releas
 
 ### Engagement
 
-The engagement grading category encompasses tasks that the teaching team feel are extremely valuable for your learning in this course. The editorial decision equivalent for this grading category is based on the percentage of the possible engagement points you have earned for your on-time submissions. . 
+The engagement assessment category encompasses tasks that the teaching team feel are extremely valuable for your learning in this course. The editorial decision equivalent for this assessment category is based on the percentage of the possible engagement points you have earned for your on-time submissions. . 
 
 * Preclass preparation assignments and homework assignments are graded for completion automatically by Canvas. We will routinely spot check these submissions and may ask you to resubmit work that is insufficiently complete or thorough. Late submissions will be credited at half of the original engagement points and must be submitted by the last day of class.
 * Feedback drafts of your projects may have some minimum completion criteria that require assessment from a TA to earn the relevant engagement points.
@@ -152,7 +152,7 @@ The engagement grading category encompasses tasks that the teaching team feel ar
 | Minor Revisions (approaches expectations) | 50%+ |
 | Major Revisions | 0%+ |
 
-This relatively low threshold of 70% to receive “Publish” was chosen to provide you with the opportunity to miss (no credit) or be late (half credit) on the occasional engagement task and still feel confident that you will receive the maximum possible credit in this engagement grading category.
+This relatively low threshold of 70% to receive “Publish” was chosen to provide you with the opportunity to miss (no credit) or be late (half credit) on the occasional engagement task and still feel confident that you will receive the maximum possible credit in this engagement assessment category.
 
 Please see Appendix 2 for an estimate of how the possible engagement points will be allocated.
 
