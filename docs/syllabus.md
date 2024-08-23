@@ -55,8 +55,8 @@ The second-last week of the course will be used to provide you with preparation 
 |---|---|---|---|
 | Sep 04 (W) | Day 01 Introduction to the course, python and Jupyter notebooks | Group activities |  |
 | Sep 09 (M) | Day 02 Strings and text formatting | Group Worksheet: Strings and text formatting |  |
-| Sep 11 (W) | Day 03 Conditionals and while loops | Group Worksheet: Conditionals and while loops |  |
-| Sep 16 (M) | Day 04 Lists and for loops | Group Worksheet: Lists and for loops |  |
+| Sep 11 (W) | Day 03 Conditionals and for loops | Group Worksheet: Conditionals and for loops |  |
+| Sep 16 (M) | Day 04 Lists and while loops | Group Worksheet: Lists and while loops |  |
 | Sep 18 (W) | Day 05 Plotting data with Matplotlib; Project 1, Day 0 | Group Worksheet: Plotting data with Matplotlib |  |
 | Sep 23 (M) | Day 06 Project 1, Day 1 |  |  |
 | Sep 25 (W) | Day 07 Project 1, Day 2 | Project 1 feedback activity | Project 1 feedback draft due |
