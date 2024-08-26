@@ -2,7 +2,7 @@
  
 **Instructor:** Joss Ives (joss.ives at ubc dot ca)
 
-**TAs:** Aiden Magor, Aaron Kraft, Karl Tsang, Katelyn Hubenig, Ksenia Khoroshun, Parmida Miri, Tomasz Lubomirski		
+**TAs:** Aiden Magor, Aaron Kraft, Karl Tsang, Katelynn Hubenig, Ksenia Khoroshun, Parmida Miri, Tomasz Lubomirski		
 
 **Location:** 	Hebb B112
 
