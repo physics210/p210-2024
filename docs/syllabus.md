@@ -19,7 +19,7 @@ Please attend the sections in which you are registered. The timetable distinctio
 
 **Co-reqs:** One of MATH 152, MATH 221, MATH 223
 
-**Office Hours:** Hebb 112 and on Zoom: Tues 4:00-5:30pm, Thurs 11:30am-1:00pm (these may be revised)
+**Office Hours:** Tues 4:00-5:30pm (Hebb 112 and on Zoom), Thurs 12:30-2:00pm (Zoom only)
 
 **Textbook:** There is no required textbook. Instead, preclass preparation assignments will be used for initial content delivery and your own work throughout the course will serve as your reference material. In addition to the plentiful resources available on the internet, there are two textbooks you may wish to engage with as coherent resources. The first uses a similar approach to this course: A Student’s Guide to Python for Physical Modeling by Kinder and Nelson (Second Edition). The second book is free, very good, and covers the majority of the topics we cover: [Computational Physics with Python](https://freecomputerbooks.com/Computational-Physics-with-Python-by-Eric-Ayars.html) by Eric Ayars. 
 
