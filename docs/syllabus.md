@@ -169,11 +169,11 @@ If you miss a class:
 
 Instead of offering extensions for projects, we offer seven project submission deadlines in the course. For the 1st, 2nd, 6th and 7th of these deadlines, you can make one initial or revised submission for any of the projects in the course. For the 3rd, 4th and 5th deadlines, you can make two initial or revised submissions. The syllabus provides recommendations for what to submit at each deadline, but it is ultimately up to you how you want to make use of these deadlines. If you miss a deadline, the submission for the next deadline will already be available so you can simply submit to that next submission deadline.
 
-| Date | Oct 02 | Oct 15 | Oct 28 | Nov 12 | Nov 25 | Dec 10 | Dec 16 |
+| | Oct 02 | Oct 15 | Oct 28 | Nov 12 | Nov 25 | Dec 10 | Dec 16 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Submission Deadline #  | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | Recommended submission   | Project 1   | Project 1 revision  | Project 2  | Project 2 revision  | Project 3  | Project 3 revision  | One last project revision  |
-| Maximum number of different submissions accepted  | 1  | 1  | 2  | 2  | 1  | 1  | 1  |
+| Maximum number of different submissions accepted  | 1  | 1  | 2  | 2  | 2  | 1  | 1  |
 
 
 
