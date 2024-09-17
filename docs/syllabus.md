@@ -100,7 +100,7 @@ Your course grade will be based upon the editorial decisions you are able to ach
 
 | Grade | Minimum Criteria |
 | :--- | :--- |
-| A (87%) | 5x Publish. Grades higher than this are obtainable only through one of more of your projects receiving "notable" distinctions |
+| A (87%) | 5x Publish. Grades higher than this are obtainable only through one of more of your projects receiving distinctions |
 | B (74%) | 5x Minor Revisions|
 | D (50%) | 2x Minor Revisions, 3x Major Revisions |
 
@@ -124,7 +124,7 @@ The following table provides an overview of the editorial decisions related to p
 | Rework | The submission is poorly aligned with the criteria. A meeting with the instructor (“the editor”) is required before engaging in revisions. | 1 |
 | No Submission | There has not yet been a submission. | 0 |
 
-In many journals, outstanding manuscripts may receive a “notable” distinction, such that the editor will highlight them based on a combination of their originality, their potential impact on the field and the quality of the communication. Projects can receive a Level 1 Notable Distinction for having an aspect of the work that goes significantly above and beyond expectations. Exceptional projects can receive a Level 2 Notable Distinction if the entire project goes significantly above and beyond expectations. The process for your “accepted for publication” projects to receive Notable Distinctions will be detailed further when the Project 01 details are released.
+In many journals, outstanding manuscripts may receive a distinction, such that the editor will highlight them based on a combination of their originality, their potential impact on the field and the quality of the communication. Projects can receive a "Notable" (Level 1) distinction  for having an aspect of the work that goes significantly above and beyond expectations. Exceptional projects can receive an "Exemplary" (Level 2) distinction if the entire project goes significantly above and beyond expectations. The process for your “accepted for publication” projects to receive distinctions will be detailed further when the Project 01 details are released.
 
 ### Poster presentation assessment
 
@@ -221,16 +221,16 @@ The 2022 version of this syllabus was a revision and update of Prof Carl Michal'
 
 # APPENDIX 1: COMPLETE GRADE DECISION TABLE
 
-Your course grade will be based upon the editorial decisions you are able to achieve across all five categories. Up to six Notable Distinction Points can be earned between the three projects, where a Level 1 Notable Distinction counts for one point and a Level 2 Notable Distinction counts for two points. The table below provides a complete picture of the minimum criteria for each grade level.
+Your course grade will be based upon the editorial decisions you are able to achieve across all five categories. Up to six distinction points can be earned between the three projects, where Notable counts for one distinction point and Exemplary counts for two distinction points. The table below provides a complete picture of the minimum criteria for each grade level.
 
 | Grade | Minimum Criteria |
 | :--- | :--- |
-| A+ (100%) | 5x Publish, 6 Notable Distinction Points |
-| A+ (98%) | 5x Publish, 5 Notable Distinction Points |
-| A+ (96%) | 5x Publish, 4 Notable Distinction Points |
-| A+ (94%) | 5x Publish, 3 Notable Distinction Points |
-| A+ (92%) | 5x Publish, 2 Notable Distinction Points |
-| A+ (90%) | 5x Publish, 1 Notable Distinction Point |
+| A+ (100%) | 5x Publish, 6 Distinction Points |
+| A+ (98%) | 5x Publish, 5 Distinction Points |
+| A+ (96%) | 5x Publish, 4 Distinction Points |
+| A+ (94%) | 5x Publish, 3 Distinction Points |
+| A+ (92%) | 5x Publish, 2 Distinction Points |
+| A+ (90%) | 5x Publish, 1 Distinction Points |
 | A (87%) | 5x Publish.|
 | A- (82%) | 4x Publish, 1x Minor Revisions |
 | B+ (78%) | 2x Publish, 3x Minor Revisions |
