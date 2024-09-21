@@ -1,4 +1,4 @@
-# Referee rubric for Project 01 (V0.9)
+# Project 01 assessment guidelines (V0.9)
 **Last update:** Sept 19, 2024
 
 ## *Overview*
