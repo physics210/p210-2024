@@ -1,4 +1,4 @@
-# Referee rubric for projects (V0.9)
+# Referee rubric for Project 01 (V0.9)
 **Last update:** Sept 19, 2024
 
 ## *Overview*
