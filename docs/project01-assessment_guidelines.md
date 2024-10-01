@@ -29,7 +29,7 @@ The feedback you receive from the referees will fall into the following categori
 |  | **Validation of code:** Was an appropriate effort was made to ensure that the code behaves as intended? Were the key steps of these validations communicated effectively in the project report appendix? |
 | **Reflection** | **Reflection questions:** Do the answers to the reflection questions suggest a good faith effort to engage with them? Are the reflection questions answered to a sufficient level of detail as to provide the context needed to understand how efforful the various aspects of the completed project were? |
 
-The sub-category of Effective coding practices (making code efficient, readable and/or concise) includes, but is not limited to, the following:
+The sub-category of Effective coding practices (making code efficient, readable concise and/or final) includes, but is not limited to, the following:
 * Making variable names descriptive,
 * Providing clear communication of the purpose of each chunk of code,
 * Ensuring that any output provided by the code has its purpose described,
