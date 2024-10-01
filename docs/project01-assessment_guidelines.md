@@ -1,5 +1,5 @@
-# Project 01 assessment guidelines (V0.9)
-**Last update:** Sept 19, 2024
+# Project 01 assessment guidelines
+**Last update:** Sept 30, 2024
 
 ## *Overview*
 
@@ -22,9 +22,9 @@ The feedback you receive from the referees will fall into the following categori
 | **Simulation and simulation physics** | **Ambition and correctness:** How did you extend yourself to incorporate the physics used in your simulation (considerations include creativity, translating physics into code and new physics you learned or developed a more thorough understanding of)? Was your physics implemented correctly in the simulation? |
 |  | **Communication of assumptions and context:** Is the simulation context sufficiently described such that the relevance of all incorporated physics ideas can be understood? Are relevant assumptions clearly stated and justified? Are references provided, as appropriate?
 | **Coding** | **Ambition and application:** How well did you apply the coding techniques learned in this course or extend yourslef to learn new-to-you techniques? Does the code run properly?
-| | **Effective coding practices:** Was an appropriate effort made to make the code efficient, readable and/or concise (further details below)? |
+| | **Effective coding practices:** Was an appropriate effort made to make the code efficient, readable, concise and/or final (further details below)? |
 | **Communication of investigation** | **Written:** Was a clear research question asked? Was the research question answered effectively via a conclusion? Was the conclusion supported by the built-up evidence presented in the body of the report? Are limitations and next steps discussed in sufficient detail to provide an accurate picture of the results and actionable next steps? Is the overall report structured effectively, with section titles as needed? |
-| | **Visualizations:** Is there a visualization that provides the main information used to answer the research question? Is there a static multi-panel graph that provides insight into the behaviour of the simulation? Are the visualizations effective and efficient in communicating their intended information? Are they incorporated effectively into the overall communication of the investigation? |
+| | **Visualizations:** Is there a visualization that provides the main information used to answer the research question? Is there a static multi-panel graph that provides insight into the behaviour of the simulation? Is each visualization in the body of the project report important for and incorporated effectively into the overall communication of the investigation? E.g., redundant graphs are not included, graphs used for diagnostics and trouble-shooting are found only in the appendices. Is each individual visualization effective and efficient at communicating its intended information? |
 | **Quality of investigation** | **Scope and thoroughness:** Is the investigation some reasonable combination of ambitious in scope and thorough? This recognizes that one will typically place more emphasis on one or the other. Thoroughness refers to a combination of exploring phase spaces thoroughly and giving careful attention to interesting features. |
 |  | **Validation of code:** Was an appropriate effort was made to ensure that the code behaves as intended? Were the key steps of these validations communicated effectively in the project report appendix? |
 | **Reflection** | **Reflection questions:** Do the answers to the reflection questions suggest a good faith effort to engage with them? Are the reflection questions answered to a sufficient level of detail as to provide the context needed to understand how efforful the various aspects of the completed project were? |
@@ -33,6 +33,8 @@ The sub-category of Effective coding practices (making code efficient, readable 
 * Making variable names descriptive,
 * Providing clear communication of the purpose of each chunk of code,
 * Ensuring that any output provided by the code has its purpose described,
+* Ensuring that diagnostic output from the code has been removed from the body of the project,
+* Ensuring that diagnostic output included in the appendices is only when needed for a specific validation task?,
 * Minimizing the need for repeating code,
 * Using efficient coding practices (e.g., using a dynamic print statement in the Homework 03 motion diagram instead of a long if/elif conditional with individualized print statements for every possible case),
 * Providing a level of commenting such that somebody else in this course could easily read your code and undestand what was going on.
