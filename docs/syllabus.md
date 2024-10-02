@@ -162,7 +162,8 @@ If you miss a class:
 
 * Consult the appropriate resources on Canvas and your preferred Jupyter server. Lecture slides and any additional notes will be posted to Canvas.
 * Attend office hours, which will always have the option to attend remotely via Zoom. 
-* Engage with the teaching team and your peers on Piazza
+* Engage with the teaching team and your peers on Piazza.
+* For days where there are in-class engagement points available via a group worksheet, you can take your completed worksheet to office hours to answer some debriefing questions and earn your engagement points. 
 
 
 ### Project submission deadlines
