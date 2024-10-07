@@ -63,7 +63,7 @@ The second-last week of the course will be used to provide you with preparation 
 | Sep 30 (M) | National Day for Truth and Reconciliation (university closed) |  |  |
 | Oct 02 (W) | Day 08 NumPy arrays | Group Worksheet: NumPy arrays | Project submission deadline #1 |
 | Oct 07 (M) | Day 09 Functions | Group Worksheet: Electric field hockey 1 |  |
-| Oct 09 (W) | Day 10 Containers: dictionaries, tuples, etc | Group Worksheet: Electric field hockey 2 | |
+| Oct 09 (W) | Day 10 Containers (dictionaries and tuples) and `solve_ivp()` (the Ordinary Differential Equation solver) | Group Worksheet: Electric field hockey 2 | |
 | Oct 14 (M) | Thanksgiving (university closed) |  |  |
 | Oct 16 (W) | Day 11 Advanced array techniques; Project 2, Day 0 | Group Worksheet: Advanced array techniques | Project submission deadline #2 |
 | Oct 21 (M) | Day 12 Project 2, Day 1 |  |  |
