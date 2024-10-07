@@ -65,7 +65,7 @@ The second-last week of the course will be used to provide you with preparation 
 | Oct 07 (M) | Day 09 Functions | Group Worksheet: Electric field hockey 1 |  |
 | Oct 09 (W) | Day 10 Containers (dictionaries and tuples) and `solve_ivp()` (the Ordinary Differential Equation solver) | Group Worksheet: Electric field hockey 2 | |
 | Oct 14 (M) | Thanksgiving (university closed) |  |  |
-| Oct 16 (W) | Day 11 Advanced array techniques; Project 2, Day 0 | Group Worksheet: Advanced array techniques | Project submission deadline #2 |
+| Oct 16 (W) | Day 11 Advanced array techniques; Project 2, Day 0 | Group Worksheet: Advanced array techniques | Project submission deadline #2 (end of the day, Thursday, Oct 17) |
 | Oct 21 (M) | Day 12 Project 2, Day 1 |  |  |
 | Oct 23 (W) | Day 13 Project 2, Day 2 | Project 2 feedback activity | Project 2 feedback draft due |
 | Oct 28 (M) | Day 14 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 | Project submission deadline #3 |
