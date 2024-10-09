@@ -71,8 +71,8 @@ The second-last week of the course will be used to provide you with preparation 
 | Oct 28 (M) | Day 14 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 | Project submission deadline #3 |
 | Oct 30 (W) | Day 15 Fitting | Group Worksheet: Fitting |  |
 | Nov 04 (M) | Day 16 Monte-Carlo methods 2; Project 3, Day 0 | Group Worksheet: Monte-Carlo methods 2 |  |
-| Nov 06 (W) | Day 17 Project 3, Day 1 |  |  |
-| Nov 11-13 | Midterm break |  | Nov 12: Project submission deadline #4 |
+| Nov 06 (W) | Day 17 Project 3, Day 1 |  | Project submission deadline #4 (end of the day, Thursday Nov 07) |
+| Nov 11-13 | Midterm break |  |  |
 | Nov 18 (M) | Day 18 Project 3, Day 2 | Project 3 feedback activity | Project 3 feedback draft due |
 | Nov 20 (W) | Day 19 File input and output | Group Worksheet: File input and output |  |
 | Nov 25 (M) | Day 20 Poster presentation prep, Day 1 |  | Project submission deadline #5 |
