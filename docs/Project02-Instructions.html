@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Project02-Instructions</title>
+<title>Project02-Instructions-V1.1</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13078,6 +13078,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Project-02:-Stable-orbits-in-the-Saturnian-atomic-model">Project 02: Stable orbits in the Saturnian atomic model<a class="anchor-link" href="#Project-02:-Stable-orbits-in-the-Saturnian-atomic-model">&#182;</a></h1><p><strong>Due:</strong> See the syllabus for submission dates</p>
+<p><em>Updated with tips Oct 21, 2024</em></p>
 
 </div>
 </div>
@@ -13131,6 +13132,46 @@ div#notebook {
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Tips"><em>Tips</em><a class="anchor-link" href="#Tips">&#182;</a></h2><ol>
+<li><p><strong>Start with a 1 proton + 1 electron system if you are struggling at all to get things up and running.</strong> This system is like a simple Earth + satellite system where you just need to pick a distance scale (initial distance between the proton and electron) and there will be a single, unique speed that corresponds to a circular orbit. And you can calculate the period of this orbit as well. This gives you starting points and order of magnitude constraints for your initial velocities in the more complicated systems and for how long to run the simulation since you won't usually want it to be much more than an order of magnitude larger than the period of this simple orbit. Then, add your next particle and use these values as your starting points.<br><br></p>
+</li>
+<li><p><strong>Symmetry is your friend.</strong> If you are using a multi-electron system, start with systems that are highly symmetric, such as each of your electrons having the same initial speeds and distances from the central charge, while being evenly spaced out around the central charge. Once you have found some stable orbits in this symmetric system, then try to make your system asymmetric.<br><br></p>
+</li>
+<li><p><strong>You are in charge of defining what a stable orbit is and how to detect it.</strong> Nuff said.<br><br></p>
+</li>
+<li><p><strong>Zoom in on your central charge when you expect a somewhat stable orbit, but don't observe it.</strong> Sometimes your simulation runs much longer than needed such that a particle that escapes looks like that is the only thing, but zooming in on the central charge may reveal some initial quasi-stable orbital behaviour.<br><br></p>
+</li>
+<li><p><strong>Set your <code>atol</code> and <code>rtol</code> tolerances value nice and small.</strong> This was advice given in Homework 10, but this is the difference between a sinple 1 proton + 1 electron orbit having a nice, stable, energy-conserving, circular orbit and one that has the electron spiraling toward the proton. This is forcing the precision of the solution to be as high as possible. You can see this in action in the Homework 10 solutions. Example:</p>
+<ul>
+<li><code>sol = solve_ivp(diff_eqns, t_span, state0, t_eval=times, rtol=1e-9, atol=1e-9)</code><br><br></li>
+</ul>
+</li>
+<li><p><strong>Use <code>max_step = dt</code> instead of <code>t_eval = times</code>.</strong> This is something I discussed in the Worksheet 10 solutions, but I discovered recently that instead of specifying all of the evaluation times with <code>t_eval = times</code>, it is even better to use <code>max_step</code> to provide the maximum time step that <code>solve_ivp</code> should use. For most steps, this will use the same steps you would have specified with <code>t_eval = times</code>, but when the differentials are suddenly much higher than usual---such as when an electron is extremely close to a proton---<code>solve_ivp</code> will decrease the size of the time steps it is using, allowing it to calculate the trajectories much more accurately at the high accelerations. Note that you can use this in conjunction with <code>atol</code> and <code>rtol</code> settings. Example:</p>
+<ul>
+<li><code>sol = solve_ivp(diff_eqns, t_span, state0, max_step = dt)</code></li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
