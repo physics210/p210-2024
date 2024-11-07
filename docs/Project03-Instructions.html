@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Project03-Instructions</title>
+<title>Project03-Instructions-V1.1</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Project-03:-Chain-Reaction">Project 03: Chain Reaction<a class="anchor-link" href="#Project-03:-Chain-Reaction">&#182;</a></h1><p><strong>Due:</strong> See the syllabus for submission dates</p>
+<h1 id="Project-03:-Chain-Reaction">Project 03: Chain Reaction<a class="anchor-link" href="#Project-03:-Chain-Reaction">&#182;</a></h1><p><strong>Updated Nov 6, 2024:</strong> Added further explanations related to multiplication factor</p>
 
 </div>
 </div>
@@ -13110,12 +13110,13 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Fermi has done some initial calculations using a simplified model of fission, but recognizes that a Monte Carlo simulation will be needed to investigate more complicated models. Fermi suggests you build a Monte Carlo simulation based on his simplified model, which will simplify initial troubleshooting and allow you to use your Monte Carlo simulation to confirm his initial calculations.</p>
 <p>When a $^{235}U$ nucleus undergoes nuclear fission in this simplified model, it always releases exactly two thermal neutrons, where a thermal neutron is one that is moving slowly enough that it might be captured by other $^{235}U$ nuclei. As long as the thermal neutron remains inside the Uranium sample, it will travel an average distance---known as the Mean Free Path $λ$---before being captured by a nucleus. In this model, every captured thermal neutron results in a new unstable $^{235}U$ nucleus, which then immediately undergoes its own fission process, releasing further neutrons.</p>
-<h3 id="Multiplication-factor,-$k$">Multiplication factor, $k$<a class="anchor-link" href="#Multiplication-factor,-$k$">&#182;</a></h3><p>He describes a quantity called the multiplication factor $(k)$ to characterize the steady-state behaviour of the nuclear chain reaction. This quantity represents the average number of neutrons from each fission event that cause further fission events, with the following three categories:</p>
+<h3 id="Multiplication-factor,-$k$">Multiplication factor, $k$<a class="anchor-link" href="#Multiplication-factor,-$k$">&#182;</a></h3><p>Fermi describes a quantity called the multiplication factor $(k)$ to characterize the steady-state behaviour of the nuclear chain reaction. This quantity represents the average number of neutrons from each fission event that cause further fission events, with the following three categories:</p>
 <ul>
 <li>$k&lt;1$: Subcritical (the reaction dies out),</li>
 <li>$k=1$: Critical (the reaction is self-sustaining), or</li>
 <li>$k&gt;1$: Supercritical (the reaction grows exponentially).</li>
 </ul>
+<p>Please see Appendix 1 in this document for a discussion of multiplication factor examples.</p>
 <h3 id="Monte-Carlo-algorithm-for-the-simplified-system">Monte Carlo algorithm for the simplified system<a class="anchor-link" href="#Monte-Carlo-algorithm-for-the-simplified-system">&#182;</a></h3><p>You and Fermi discuss the Monte Carlo algorithm for the simplified system and come up with the following:</p>
 <ol>
 <li>Choose an initial number of thermal neutrons to simulate, $N_0$ (zeroth generation).</li>
@@ -13252,6 +13253,17 @@ div#notebook {
 
 <span class="c1"># ... (determine final positions, etc)</span>
 </pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Appendix-1.-Multiplication-factor-examples"><em>Appendix 1. Multiplication factor examples</em><a class="anchor-link" href="#Appendix-1.-Multiplication-factor-examples">&#182;</a></h2><p>Let's use the simple model to discuss multiplicatin factor examples.</p>
+<p>We start with $N_0 = 250$ neutrons moving around inside the sample. Each of those neutrons that stops inside the sample generates two new neutrons, where each of these neutrons could potentially cause more fission events. If the sample was infinitely large, such that no neutrons can escape the sample, the original $N_0 = 250$ neutrons will produce $N_1 = 500$ neutrons, which will then produce $N_2 = 1000$ neutrons, and so on. In this situation, our maximum multiplication factor is $k = 2$, since there is an average of two neutrons from each fission even that can cause further fission events. $k$ is just counting the multiplication factor relating the number of neutrons in the sample when going from generation 0 ($N_0 = 250$) to generation 1 ($N_1 = 500$), which is $k(0-1) = 500/250=2$. It is important to note that in this extreme example, $k(0-1) = k(1-2)$ and so on, but in reality the multiplication factor can change as the generations progress.</p>
+<p>Conversely, the minimum possible $k$ is 0, which would correspond to an infinitely small sample where all of the starting neutrons leave the sample and produce no further neutrons.</p>
+<p>Finally, a multiplication factor of $k=1$ corresponds to a situation where the average number of neutrons present in a new generation is the same as the number present in the previous generation. In the simple model, this would correspond to an average behaviour of every fission event generating two neutrons, where on average one escapes the sample and the other remains in the sample to create two new neutrons.</p>
 
 </div>
 </div>
