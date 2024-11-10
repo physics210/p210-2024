@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Project03-Instructions-V1.1</title>
+<title>Project03-Instructions-V1.2</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,7 +13077,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Project-03:-Chain-Reaction">Project 03: Chain Reaction<a class="anchor-link" href="#Project-03:-Chain-Reaction">&#182;</a></h1><p><strong>Updated Nov 6, 2024:</strong> Added further explanations related to multiplication factor</p>
+<h1 id="Project-03:-Chain-Reaction">Project 03: Chain Reaction<a class="anchor-link" href="#Project-03:-Chain-Reaction">&#182;</a></h1><p><strong>V1.1 (Nov 6, 2024):</strong> Added further explanations related to multiplication factor.<br>
+<strong>V1.2 (Nov 10, 2024):</strong> Emphasized next generation neutrons being produced where previous generation ones stopped.</p>
 
 </div>
 </div>
@@ -13109,7 +13110,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Fermi has done some initial calculations using a simplified model of fission, but recognizes that a Monte Carlo simulation will be needed to investigate more complicated models. Fermi suggests you build a Monte Carlo simulation based on his simplified model, which will simplify initial troubleshooting and allow you to use your Monte Carlo simulation to confirm his initial calculations.</p>
-<p>When a $^{235}U$ nucleus undergoes nuclear fission in this simplified model, it always releases exactly two thermal neutrons, where a thermal neutron is one that is moving slowly enough that it might be captured by other $^{235}U$ nuclei. As long as the thermal neutron remains inside the Uranium sample, it will travel an average distance---known as the Mean Free Path $λ$---before being captured by a nucleus. In this model, every captured thermal neutron results in a new unstable $^{235}U$ nucleus, which then immediately undergoes its own fission process, releasing further neutrons.</p>
+<p>When a $^{235}U$ nucleus undergoes nuclear fission in this simplified model, it always releases exactly two thermal neutrons, where a thermal neutron is one that is moving slowly enough that it might be captured by other $^{235}U$ nuclei. As long as the thermal neutron remains inside the Uranium sample, it will travel an average distance---known as the Mean Free Path $λ$---before being captured by a nucleus. In this model, every captured thermal neutron results in a new unstable $^{235}U$ nucleus where the thermal neutron was captured, which then immediately undergoes its own fission process, releasing further neutrons.</p>
 <h3 id="Multiplication-factor,-$k$">Multiplication factor, $k$<a class="anchor-link" href="#Multiplication-factor,-$k$">&#182;</a></h3><p>Fermi describes a quantity called the multiplication factor $(k)$ to characterize the steady-state behaviour of the nuclear chain reaction. This quantity represents the average number of neutrons from each fission event that cause further fission events, with the following three categories:</p>
 <ul>
 <li>$k&lt;1$: Subcritical (the reaction dies out),</li>
@@ -13123,9 +13124,9 @@ div#notebook {
 <li>Randomly generate $N_0$ starting locations within the Uranium for these initial thermal neutrons.</li>
 <li>Randomly generate the directions of travel, in three dimensions, of the $N_0$ initial thermal neutrons.</li>
 <li>Using the Mean Free Path $\lambda$, generate the distances, $L$, that the $N_0$ initial thermal neutrons would each need to travel in the sample before being captured. This distance travelled comes from the probability, $p(L)∝e^{-L/λ}$, of a thermal neutron being captured when it travels a distance $L$. You do not need to impliment this $p(L)$ equation directly in your code since it is what is used to <code>d = -mean_free_path*np.log(np.random.random(N))</code></li>
-<li>Determine how many of the neutrons are absorbed inside the sample after they have each traveled their randomly determined distance $L$ in their randomly determined direction from their randomly determined initial position. Neutrons that are still inside the sample after traveling their distance $L$ are considered to have been captured and will initiate a new fission event. Neutrons that do not remain inside the sample after traveling their distance $L$ are lost and will not initiate any further fission events.</li>
-<li>Determine the number of new thermal neutrons generated, $N_1$ (first generation, a.k.a. the children), knowing that each fission event will generate 2 new neutrons.</li>
-<li>With each of the $N_1$ thermal neutrons starting from where they were produced by the fission events, generate their random directions of travel and distances $L$. Determine how many of these $N_1$ neutrons are absorbed inside the sample and then determine the number of second generation neutrons, $N_2$ (second generation, a.k.a. the grandchildren), that are produced by the $N_1$ neutrons.</li>
+<li>Determine how many of the neutrons are absorbed inside the sample after they have each traveled their randomly determined distance $L$ in their randomly determined direction from their randomly determined initial position. Neutrons that are still inside the sample after traveling their distance $L$ are considered to have been captured and will initiate a new fission event where they were captured. Neutrons that do not remain inside the sample after traveling their distance $L$ are lost and will not initiate any further fission events.</li>
+<li>Determine the number of new thermal neutrons generated, $N_1$ (first generation, a.k.a. the children), knowing that each fission event will generate 2 new neutrons. Keep in mind that these new neutrons are generated at the locations where the previous ones were captured.</li>
+<li>With each of the $N_1$ thermal neutrons, generate their random directions of travel and distances $L$. Determine how many of these $N_1$ neutrons are absorbed inside the sample and then determine the number of second generation neutrons, $N_2$ (second generation, a.k.a. the grandchildren), that are produced by the $N_1$ neutrons. Again, neutrons from the new generation are produced where the previous ones were captured. </li>
 <li>Repeat this same process to determine how many thermal neutrons, $N_3$, there are in the third generation (a.k.a. the great-grandchildren).</li>
 </ol>
 <p>Some starter code is provided at the end of this document to provide concrete examples of generating random directions and travel distances. This includes some initial parameters described in the next section.</p>
@@ -13147,7 +13148,7 @@ div#notebook {
 <ul>
 <li>A $^{235}U$ cube with sides of length $a = 0.50 \text{ m}$,</li>
 <li>A mean free path inside the Uranium of $\lambda = 0.15 \text{ m}$,</li>
-<li>Two new thermal neutrons generated per fission event, where every neutron that remains inside the sample will initiate a fission event,</li>
+<li>Two new thermal neutrons generated per fission event, where every neutron that remains inside the sample will initiate a fission event at the location where it was captured,</li>
 <li>$N_0 = 250$ initial thermal neutrons,</li>
 <li>Running each trial of the simulation until the third generation of neutrons are produced, which will be $N_3$ (the great-grandchildren) </li>
 <li>Repeating the three-generation experiment $m_\text{trials} = 250$ times so that you will be able to characterize the multiplication factor, $k$, using mean and standard deviation.</li>
@@ -13236,6 +13237,7 @@ div#notebook {
 <span class="n">mean_free_path</span> <span class="o">=</span> <span class="o">.</span><span class="mi">15</span> <span class="c1"># m</span>
 
 <span class="c1"># Generate a random initial decay position for each neutron</span>
+<span class="c1"># - These positions will only be random for the Generation 0 neutrons</span>
 <span class="n">x0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
 <span class="n">y0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
 <span class="n">z0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
@@ -13261,12 +13263,25 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Appendix-1.-Multiplication-factor-examples"><em>Appendix 1. Multiplication factor examples</em><a class="anchor-link" href="#Appendix-1.-Multiplication-factor-examples">&#182;</a></h2><p>Let's use the simple model to discuss multiplicatin factor examples.</p>
-<p>We start with $N_0 = 250$ neutrons moving around inside the sample. Each of those neutrons that stops inside the sample generates two new neutrons, where each of these neutrons could potentially cause more fission events. If the sample was infinitely large, such that no neutrons can escape the sample, the original $N_0 = 250$ neutrons will produce $N_1 = 500$ neutrons, which will then produce $N_2 = 1000$ neutrons, and so on. In this situation, our maximum multiplication factor is $k = 2$, since there is an average of two neutrons from each fission even that can cause further fission events. $k$ is just counting the multiplication factor relating the number of neutrons in the sample when going from generation 0 ($N_0 = 250$) to generation 1 ($N_1 = 500$), which is $k(0-1) = 500/250=2$. It is important to note that in this extreme example, $k(0-1) = k(1-2)$ and so on, but in reality the multiplication factor can change as the generations progress.</p>
+<p>We start with $N_0 = 250$ neutrons moving around inside the sample. Each of those neutrons that stops inside the sample generates two new neutrons at the locations where these neutrons were captured, where each of these neutrons could potentially cause more fission events. If the sample was infinitely large, such that no neutrons can escape the sample, the original $N_0 = 250$ neutrons will produce $N_1 = 500$ neutrons, which will then produce $N_2 = 1000$ neutrons, and so on. In this situation, our maximum multiplication factor is $k = 2$, since there is an average of two neutrons from each fission even that can cause further fission events. $k$ is just counting the multiplication factor relating the number of neutrons in the sample when going from generation 0 ($N_0 = 250$) to generation 1 ($N_1 = 500$), which is $k(0-1) = 500/250=2$. It is important to note that in this extreme example, $k(0-1) = k(1-2)$ and so on, but in reality the multiplication factor can change as the generations progress.</p>
 <p>Conversely, the minimum possible $k$ is 0, which would correspond to an infinitely small sample where all of the starting neutrons leave the sample and produce no further neutrons.</p>
 <p>Finally, a multiplication factor of $k=1$ corresponds to a situation where the average number of neutrons present in a new generation is the same as the number present in the previous generation. In the simple model, this would correspond to an average behaviour of every fission event generating two neutrons, where on average one escapes the sample and the other remains in the sample to create two new neutrons.</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
