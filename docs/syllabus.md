@@ -252,15 +252,15 @@ Your course grade will be based upon the editorial decisions you are able to ach
 | A (87%) | 5x Publish.|
 | A- (82%) | 4x Publish, 1x Minor Revisions |
 | B+ (78%) | 2x Publish, 3x Minor Revisions |
-| B (74%) | 5x Minor Revisions<br>2x Publish, 2x Minor Revisions, 1x Major Revisions |
+| B (74%) | 5x Minor Revisions, or<br>2x Publish, 2x Minor Revisions, 1x Major Revisions |
 | B- (70%) | 1x Publish, 3x Minor Revisions, 1x Major Revisions |
 | C+ (66%) | 4x Minor Revisions, 1x Major Revisions |
 | C (62%) | 1x Publish, 2x Minor Revisions, 2x Major Revisions |
-| C- (57%) | 3x Minor Revisions, 2x Major Revisions |
+| C- (57%) | 3x Minor Revisions, 2x Major Revisions, or<br>2x Publish, 2x Minor Revisions, 1x Rework, or<br>2x Publish, 3x Major Revisions |
 | D (50%) | 2x Minor Revisions, 3x Major Revisions |
 | F (40%) | 5x Major Revisions |
 | F (30%) | 3x Major Revisions, 2x Rework |
-| F (20%) | 1x Major Revision, 4x Rework |
+| F (20%) | 1x Major Revision, 4x Rework, or<br>3x Major Revisions, 1x Rework, 1x No Submission |
 | F (10%) | 1x Major Revision, 2x Rework, 2x No Submission |
 | F (0%) | 1x Major Revision, 4x No Submission |
 
