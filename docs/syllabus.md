@@ -82,39 +82,6 @@ The second-last week of the course will be used to provide you with preparation 
 | Dec 10 (T) | Exam period |  | Project submission deadline #7 |
 | Dec 16 (M)  | Exam period |  | Project submission deadline #8 |
 
-## OLD SCHEDULE
-
-| Date | Topics | In-class engagement activity | Project deadlines* |
-|---|---|---|---|
-| Sep 04 (W) | Day 01 Introduction to the course, python and Jupyter notebooks | Group activities |  |
-| Sep 09 (M) | Day 02 Strings and text formatting | Group Worksheet: Strings and text formatting |  |
-| Sep 11 (W) | Day 03 Conditionals and for loops | Group Worksheet: Conditionals and for loops |  |
-| Sep 16 (M) | Day 04 Lists and while loops | Group Worksheet: Lists and while loops |  |
-| Sep 18 (W) | Day 05 Plotting data with Matplotlib; Project 1, Day 0 | Group Worksheet: Plotting data with Matplotlib |  |
-| Sep 23 (M) | Day 06 Project 1, Day 1 |  |  |
-| Sep 25 (W) | Day 07 Project 1, Day 2 | Project 1 feedback activity | Project 1 feedback draft due |
-| Sep 30 (M) | National Day for Truth and Reconciliation (university closed) |  |  |
-| Oct 02 (W) | Day 08 NumPy arrays | Group Worksheet: NumPy arrays | Project submission deadline #1 |
-| Oct 07 (M) | Day 09 Functions | Group Worksheet: Electric field hockey 1 |  |
-| Oct 09 (W) | Day 10 Containers (dictionaries and tuples) and `solve_ivp()` (the Ordinary Differential Equation solver) | Group Worksheet: Electric field hockey 2 | |
-| Oct 14 (M) | Thanksgiving (university closed) |  |  |
-| Oct 16 (W) | Day 11 Advanced array techniques; Project 2, Day 0 | Group Worksheet: Advanced array techniques | Project submission deadline #2 (end of the day, Thursday, Oct 17) |
-| Oct 21 (M) | Day 12 Project 2, Day 1 |  |  |
-| Oct 23 (W) | Day 13 Project 2, Day 2 | Project 2 feedback activity | Project 2 feedback draft due |
-| Oct 28 (M) | Day 14 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 | Project submission deadline #3 |
-| Oct 30 (W) | Day 15 Fitting | Group Worksheet: Fitting |  |
-| Nov 04 (M) | Day 16 Monte-Carlo methods 2; Project 3, Day 0 | Group Worksheet: Monte-Carlo methods 2 |  |
-| Nov 06 (W) | Day 17 Project 3, Day 1 |  | Project submission deadline #4 (end of the day, Thursday Nov 07) |
-| Nov 11-13 | Midterm break |  |  |
-| Nov 18 (M) | Day 18 Project 3, Day 2 | Project 3 feedback activity | Project 3 feedback draft due |
-| Nov 20 (W) | Day 19 File input and output | Group Worksheet: File input and output |  |
-| Nov 25 (M) | Day 20 Poster presentation prep, Day 1 |  | Project submission deadline #5 |
-| Nov 27 (W) | Day 21 Poster presentation prep, Day 2 |  |  |
-| Dec 02 (M) | Day 22 Poster presentations, Day 1 |  |  |
-| Dec 04 (W) | Day 23 Poster presentations, Day 2 |  |  |
-| Dec 10 (T) | Exam period |  | Project submission deadline #6 |
-| Dec 16 (M)  | Exam period |  | Project submission deadline #7 |
-
 * Please see the Project submission deadlines section below for further details
 
 ## COURSE GRADES
@@ -266,6 +233,13 @@ The 2022 version of this syllabus was a revision and update of Prof Carl Michal'
 # APPENDIX 1: COMPLETE GRADE DECISION TABLE
 
 Your course grade will be based upon the editorial decisions you are able to achieve across all five categories. Up to six distinction points can be earned between the three projects, where Notable counts for one distinction point and Exemplary counts for two distinction points. The table below provides a complete picture of the minimum criteria for each grade level.
+
+*Updated Dec 18, 2024:* The following modifications to the original grading rubric, and to the benefit of the student, will be applied:
+* For students earning fewer than 5x Publish, their grade will be calculated according to the charge below and then 2% will be added to their final grade per Distinction Point
+* In the cases where it will increase a student's grade, the following combinations of editorial decisions will be considered equal. The chart below has been updated to include multiple paths to some of the grades:
+  * 2x Publish + 1x Major Revisions = 3x Minor Revisions
+  * 2x Minor Revisions + 1x Rework = 3x Major Revisions
+  * 2x Major Revisions + 1x No Submission = 3x Rework
 
 | Grade | Minimum Criteria |
 | :--- | :--- |
