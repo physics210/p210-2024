@@ -235,7 +235,7 @@ The 2022 version of this syllabus was a revision and update of Prof Carl Michal'
 Your course grade will be based upon the editorial decisions you are able to achieve across all five categories. Up to six distinction points can be earned between the three projects, where Notable counts for one distinction point and Exemplary counts for two distinction points. The table below provides a complete picture of the minimum criteria for each grade level.
 
 *Updated Dec 18, 2024:* The following modifications to the original grading rubric, and to the benefit of the student, will be applied:
-* For students earning fewer than 5x Publish, their grade will be calculated according to the charge below and then 2% will be added to their final grade per Distinction Point
+* For students earning fewer than 5x Publish, their grade will be calculated according to the chart below and then 2% will be added to their final grade per Distinction Point
 * In the cases where it will increase a student's grade, the following combinations of editorial decisions will be considered equal. The chart below has been updated to include multiple paths to some of the grades:
   * 2x Publish + 1x Major Revisions = 3x Minor Revisions
   * 2x Minor Revisions + 1x Rework = 3x Major Revisions
